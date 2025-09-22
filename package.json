@@ -1,0 +1,12 @@
+{
+  "name": "weekdays-from-date",
+  "version": "1.0.0",
+  "description": "Utility to get weekday or week (Mon-Sun) from a date string (supports dd.mm.yyyy, dd-mm-yyyy, dd/mm/yyyy, ISO).",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": ["date","weekday","week","utility"],
+  "author": "Your Name",
+  "license": "MIT"
+}
