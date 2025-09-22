@@ -1,12 +1,21 @@
 {
   "name": "weekdays-from-date",
   "version": "1.0.0",
-  "description": "Utility to get weekday or week (Mon-Sun) from a date string (supports dd.mm.yyyy, dd-mm-yyyy, dd/mm/yyyy, ISO).",
-  "main": "index.js",
-  "scripts": {
-    "test": "node test.js"
+  "description": "Get weekday or full week (Mon-Sun) from a date string. Supports multiple date formats.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "weekdays-from-date": "./dist/cli.js"
   },
-  "keywords": ["date","weekday","week","utility"],
+  "scripts": {
+    "build": "tsc",
+    "test": "ts-node test/test.ts"
+  },
+  "keywords": ["date", "weekday", "week", "utility", "cli"],
   "author": "Your Name",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.0"
+  }
 }
