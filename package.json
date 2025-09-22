@@ -1,6 +1,6 @@
 {
   "name": "weekdays-from-date",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Get weekday or full week (Mon-Sun) from a date string. Supports multiple date formats.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
